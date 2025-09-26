@@ -1,0 +1,1247 @@
+Received: from AM7PR10MB3287.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:20b:10e::19)
+ by AS2PR10MB6518.EURPRD10.PROD.OUTLOOK.COM with HTTPS; Thu, 24 Jul 2025
+ 21:58:17 +0000
+Received: from AS8PR10MB6079.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:20b:570::8)
+ by AM7PR10MB3287.EURPRD10.PROD.OUTLOOK.COM (2603:10a6:20b:10e::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8964.22; Thu, 24 Jul
+ 2025 21:58:15 +0000
+Received: from AS8PR10MB6079.EURPRD10.PROD.OUTLOOK.COM
+ ([fe80::2f19:6884:a5b8:8bc]) by AS8PR10MB6079.EURPRD10.PROD.OUTLOOK.COM
+ ([fe80::2f19:6884:a5b8:8bc%6]) with mapi id 15.20.8964.019; Thu, 24 Jul 2025
+ 21:58:15 +0000
+From: "Omar Emad-Mahmoud, Vodafone" <omar.emadmahmoud@vodafone.com.eg>
+To: "Ahmed Sameh-Rizk, Vodafone" <ahmed.samehrizk@vodafone.com.eg>
+Subject: Quality
+Thread-Topic: Quality
+Thread-Index: AQHb/OXbTHj0agDf90e6mMBFPZo8Jw==
+Date: Thu, 24 Jul 2025 21:58:15 +0000
+Message-ID:
+	<AS8PR10MB6079C893F9069EB9F6F4DE36C25EA@AS8PR10MB6079.EURPRD10.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AS8PR10MB6079.EURPRD10.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-ComplianceLabelId:
+	f56291e8-721c-41ee-9dc7-296e036921b0
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	f9ae4be9-5ecf-4520-71f6-08ddcafd312f
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+msip_labels:
+	MSIP_Label_7f373536-36c5-4fd9-8140-7ddebb8b4638_Enabled=True;MSIP_Label_7f373536-36c5-4fd9-8140-7ddebb8b4638_SiteId=28d54ec7-2221-4717-acb0-7f8c37359048;MSIP_Label_7f373536-36c5-4fd9-8140-7ddebb8b4638_SetDate=2025-07-24T21:58:15.3840000Z;MSIP_Label_7f373536-36c5-4fd9-8140-7ddebb8b4638_Name=C2
+ General;MSIP_Label_7f373536-36c5-4fd9-8140-7ddebb8b4638_ContentBits=3;MSIP_Label_7f373536-36c5-4fd9-8140-7ddebb8b4638_Method=Standard
+x-ms-publictraffictype: Email
+x-ms-exchange-crosstenant-id: 28d54ec7-2221-4717-acb0-7f8c37359048
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(425001)(930097)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	hwkYFJUJ/K1pxAP78dc14h5CILkb3kCs/plmWTrlPUq12Txg0dL0Vrk5mYN7GiCH5/+nNubFw82qf79OVVSzGRb9+oKO+CPBoHl5t5ig4kruyQx6VNRjEWqyadPjXjga/pLHdpFQ9eC2qOzobin4evho+eGp7dksXCmo0Mg1HwHxeksxmDdqv/sKjM03OjVpq4Y9URT+siw3R70EHNs4Tmvxmna189c6MXupZJ1Lurb3x0qnu0KX/hEBHYbOsPLsCbAs0iZHbZb1uAzGNyeezt2F+ZdADsk4IPGwqqwal1XdMrMiqEfVFBkUJj+cmw8H29Cymmkg1vo8OnqSvt96UkhE9oRzUAGCdEHbMZknwM1PvPU640YZa+q57GsoW85L3JQ5tnuPhgIYoaJRWdUq18whOoOmyLz6M3iqyvmMspAwVFFnYJuCjvyNCPMWRfbbIvxOySYiWFpdNZNRAcuA9TQ/pMt0TE7kwK9CdI8xvObs7OOE/C9UEEolPvxMvP9TdWnwB1NJKpI6CkIb9nj534uhnvzvhIuhk2w9GAcqeapwZ3DfuX2hUtNIjIhn4+jyzLptD2+dUVklBtEFCvYbWeVtsDd3zA0/od1wWU6gFxbV4ncN5HrrgN7fR6AJ0fkVOB4AvsABZKWNZeBLwevkFNQ7Tdi79AIzNkNd8xervLKWEDhcFxb8NpT8Eo7mC5TV7n4Oz++gAy2wu5364ogpsN2c5bycPszSS6MMZR1BtUS4AqR80Y916mU8BxlmZFKOt67PKjYLaaTB6xO5wSCJOPk3hYGtoT1yG8TLc2DjKYA=
+Content-Type: multipart/alternative;
+	boundary="_000_AS8PR10MB6079C893F9069EB9F6F4DE36C25EAAS8PR10MB6079EURP_"
+MIME-Version: 1.0
+
+--_000_AS8PR10MB6079C893F9069EB9F6F4DE36C25EAAS8PR10MB6079EURP_
+Content-Type: text/plain; charset="windows-1256"
+Content-Transfer-Encoding: quoted-printable
+
+Soft Skills Comment
+Hold Protocol/Without customer approval/Long Hold
+Ne2olha Ezai(Be more Professional in handling way)
+Concentration
+Didn=92t Use Positive language
+Didn't Show Empathy
+Interruption
+don=92t help the customer and don=92t accept the request the customer talk =
+the supervisor
+He Didn=92t Offer To Help with Anything Else To The Customer At The End Of =
+The Call
+Missing Closing
+Incomplete greeting/Late Greeting
+Missing closing at outbound
+Poor Handling
+Mute
+Silence 20 Second or More
+Slangs/Unprofessional Words
+Noise Background
+Not Active Tone/Sleepy Tone / IVR Tone/Not Clear Tone/Fast Tone
+
+
+=D5=C8=C7=CD =C7=E1=CE=ED=D1& =E3=D3=C7=C1 =C7=E1=CE=ED=D1
+=C7=E1=E6
+=E3=D3=C7=C1 =C7=E1=CE=ED=D1 =DD=E6=CF=C7=DD=E6=E4 =DF=C7=D4 (.... =E3=DA =
+=CD=D6=D1=CA=DF =C7=CA=D4=D1=DD =C8 =C7=E1=C3=D3=E3)
+=E3=D3=C7=C1 =C7=E1=CE=ED=D1 (... )=E3=DA=C7=DF =E3=E4 =DD=E6=CF=C7=DD=E6=
+=E4 =DF=C7=D4
+=C7=CA=D4=D1=DD =C8=C7=D3=E3 =CD=D6=D1=CA=DF =E3=E4 =DD=D6=E1=DF -=C3=CA=D4=
+=D1=DD =C8=C7=D3=E3 =CD=D6=D1=CA=DF
+=C7=D3=E3=DF =C7=ED=E5
+=C7=DE=CF=D1 =C7=D3=C7=DA=CF =CD=D6=D1=CA=DF =C7=D2=C7=ED -
+=C7=ED=E5 =C7=E1=E3=D4=DF=E1=E5 =C7=E1=ED =C8=CA=E6=CC=E5=DF
+=C3=D3=CA=C7=D0 (=C3=D3=E3 =C7=E1=DA=E3=ED=E1) =CD=D6=D1=CA=DF =E3=DA=C7=ED=
+=C7
+=C7=E4=CA =E3=DA=C7=ED=C7
+=E1=C7=D2=E3 =C7=DE=E6=E1 =DF=E1=C7=E3 =ED=DF=E6=E4 =D3=E5=E1 =E6=E6=C7=D6=
+=CD =E1=E1=DA=E3=ED=E1 =D2=ED(=E5=D1=C7=CC=DA =E1=CD=D6=D1=CA=DF =C7=E1=DA=
+=E3=E1=ED=E5 =DD=ED =C7=E1=E6=DE=CA =C7=E1=CD=C7=E1=ED - =CD=C7=E1=C7 =C8=
+=ED=D9=E5=D1 =DE=CF=C7=E3=ED =C7=E1=C8=ED=C7=E4=C7=CA =C7=E1=CE=C7=D5=E5 =
+=C8=C7=E1=C7=D3=CA=DD=D3=C7=D1 )
+=E3=ED=E4=DD=DA=D4 =C7=DE=E6=E1 =C7=ED =DF=E1=C7=E3 =CE=C7=D5 =C8=E1=D3=ED=
+=D3=CA=E3 =C8=CA=C7=DA=E4=C7 (=E5=DF=D1=ED=CA =E1=DF SR- =E5=CA=D4=DF Mobpa=
+y-Siebel)
+=C8=DA=CA=D0=D1 =CC=CF=C7 =E1=CD=D6=D1=CA=DF =ED=C7 =DD=E4=CF=E3 =C8=D3 =C7=
+=E4=C7 =E1=E1=C7=D3=DD =E3=D4 =DE=C7=CF=D1 =C7=D3=E3=DA =CD=D6=D1=CA=DF =C8=
+=D4=DF=E1 =E6=C7=D6=CD =E3=E3=DF=E4 =C3=D3=CA=C7=D0=E4=DF =E4=CA=CD=D1=DF =
+=C8=C7=E1=CA=E1=ED=DD=E6=E4 =DD=ED =E3=DF=C7=E4 =CA=C7=E4=ED =DA=E1=D4=C7=
+=E4 =C7=DE=CF=D1 =C7=E4=ED =C7=D3=E3=DA=DF =C8=D4=DF=E1 =C3=E6=D6=CD =E6 =
+=C7=DE=CF=D1 =C7=D3=C7=DA=CF=DF =DD=ED =C7=E1=C7=D3=CA=DD=D3=C7=D1
+=E3=ED=E4=DD=DA=D4 =C7=DE=E6=E1 =E1=E1=DA=E3=ED=E1 =C7=E1=D4=C8=DF=E5 =DA=
+=E4=CF=DF =E6=CD=D4=E5 =C7=E6 =C7=E1=D5=E6=CA =C8=ED=DE=D8=DA
+=CD=D6=D1=CA=DF =CA=E3=ED=CA =DA=E3=E1=ED=C7=CA =D3=CD=C8 =C8=E3=C8=E1=DB (=
+....) =E3=CA=C8=DE=ED =E1=CD=D6=D1=CA=DF =CA=DE=CF=D1 =CA=D3=CD=C8 =C7=E6 =
+=CA=CD=E6=E1 =E3=E4 =C7=E1=E3=CD=DD=D9=E5 =E3=C8=E1=DB (...)
+=CA=DE=CF=D1 =CA=CE=D1=CC =E3=E4 =C7=E1=E3=CD=DD=D9=E5 =C7=E6 =CA=DE=CF=D1 =
+=CA=CE=D1=CC =E3=E4 =C7=E1=E3=CD=DD=D9=E5
+=DA=C7=ED=D2 =CD=D6=D1=CA=DF =CA=DF=E6=E4 =E3=D8=E3=E4 =E5=ED=CA=E3 =C7=E1=
+=D1=CF =DA=E1=ED =D3=CA=DD=D3=C7=D1=DF =DD=ED =CE=E1=C7=E1....=C3=E6 =DA=C7=
+=ED=D2 =CD=D6=D1=CA=DF =CA=DF=E6=E4 =E3=D8=E3=E4 =C7=E4=C7 =E5=DD=D6=E1 =C7=
+=CA=C7=C8=DA =E3=DA=C7=DF =E1=CD=CF =C7=E1=E6=D5=E6=E1 =E1=CD=E1 - =E3=CA=
+=DE=E1=DE=D4 =ED=C7 =DD=E4=CF=E3 =C7=E4=C7 =E3=DA=C7=DF =DD=ED =C7=E1=E3=DF=
+=C7=E1=E3=E5 =E1=CD=CF =E3=C7 =CA=DE=CF=D1 (own the case)
+=E3=DD=ED=D4 =C7=ED =E3=D4=DF=E1=E5 =CE=C7=E1=D5
+=CA=E3=C7=E3 =ED=C7 =DD=E4=CF=E3
+=E3=C7=D4=ED =E3=C7=D4=ED
+=C7=E1=E3=CD=DD=D9=E5 =C7=E1=CE=C7=D5=E5 =C8=CD=D6=D1=CA=DF =E3=E6=DE=E6=DD=
+=E5 =C7=ED=DE=C7=DD =E3=E6=DE=CA =C7=E6=D6=CD =E1=E1=DA=E3=ED=E1 =C7=E1=CE=
+=D8=E6=E5 =C7=E1=ED =E3=CD=CA=C7=CC =ED=C7=CE=CF=E5=C7
+=C7=E1=E3=CD=DD=D9=E5 =E3=CA=D5=D5=C8=E4=E5
+=E5=ED=CA=E3 =CA=DD=DA=ED=E1 =C7=E6 =C7=E1=DB=C7=C1 =C7=E1=E3=CD=DD=D9=E5 =
+=C7=E1=CE=C7=D5=E5 =C8=CD=D6=D1=CA=DF =ED=C7 =DD=E4=CF=E3
+=E5=ED=DE=DD=E1 =C7=E6 =ED=DD=CA=CD =C7=E1=E3=CD=DD=D9=E5
+=DA=DD=E6=C7 =C7=E4=C7 =E3=DE=CF=D1=CA=D4 =C7=D3=E3=DA =CD=D6=D1=CA=DF =C8=
+=E6=D6=E6=CD
+=DA=E1=ED =D5=E6=CA=DF
+=DA=DD=E6=C7 =C7=E4=C7 =E3=DE=CF=D1=CA=D4 =C7=D3=E3=DA =CD=D6=D1=CA=DF =C8=
+=E6=D6=E6=CD
+=C7=ED=E5 =E3=D4 =D3=C7=E3=DA=DF
+=E3=ED=E4=DD=DA=D4 =E4=E5=C7=C6=ED =C7=DE=C7=D8=DA =C7=E1=DA=E3=ED=E1 =E1=
+=C7=D2=E3 =C7=D3=CA=E4=ED =C7=E1=DA=E3=ED=E1 =ED=CE=E1=D5 =DF=E1=C7=E3=E5
+=E3=C7=ED=E4=DA=D4 =E4=E5=C7=C6=ED =C7=DE=C7=D8=DA =C7=E1=DA=E3=ED=E1 =E6=
+=E5=E6 =C8=ED=CA=DF=E1=E3
+=C3=DE=CF=D1 =C3=E4=ED =C7=D3=CA=C8=CF=E1=E5=E3 =C8 =C3=D3=E3 =C7=E1=DA=E3=
+=ED=E1 =E1=C7=D2=E3 =E1=C7=D2=E3 =E1=C7=D2=E3 =ED=CA=E3 =C7=D3=CA=CE=CF=C7=
+=E3 =C7=D3=E3 =C7=E1=DA=E3=ED=E1 =DD=ED =C7=E1=E3=DF=C7=E1=E3=E5 =C3=DF=CA=
+=D1 =E3=E4 =E3=D1=CA=ED=E4
+=E3=ED=E4=DD=DA=D4 =C7=DF=D1=D1 =CD=D6=D1=CA=DF =DF=CA=ED=D1 =DD=ED =C7=E1=
+=E3=DF=C7=E1=E3=E5 =C7=E6 =ED=C7 =DD=E4=CF=E3
+=E1=C7=D2=E3 =C7=D3=ED=C8 =C7=E4=D8=C8=C7=DA =E1=E1=DA=E3=ED=E1 =DF=E6=ED=
+=D3 =E6=E1=C7=D2=E3 =C7=C8=CF=E1 =DF=E1=E3=E5 (=E3=D4=DF=E1=E5) =E3=E3=DF=
+=E4 =E4=C8=CF=E1=E5=C7 =C8 (=C7=D3=CA=DD=D3=C7=D1 =CD=D6=D1=CA=DF  )
+=E3=ED=E4=DD=DA=D4 =C7=DE=E6=E1 =E1=E1=DA=E3=ED=E1 =C7=ED=E5 =C7=E1=E3=D4=
+=DF=E1=E5 =C7=E1=ED =C8=CA=E6=C7=CC=E5 =CD=D6=D1=CA=DF
+=C7=E1=CC=E5=C7=CA =C7=E1=E3=CE=CA=D5=E5 =C8 =C7=E1=E3=CD=C7=DD=D9 =C7=E1=
+=C7=DF=CA=D1=E6=E4=ED=E5
+=C7=E1=C8=E4=DF =C7=E1=E3=D1=DF=D2=ED =C7=E1=E3=D3=C4=E1 =DA =C7=E1=E1=ED=
+=E3=CA
+=C8=DA=CA=D0=D1 =CC=CF=C7 =E1=CD=D6=D1=CA=DF =ED=C7 =DD=E4=CF=E3 =C8=D3 =E1=
+=E1=C7=D3=DD =C7=E1=DA=E3=ED=E1 =C7=E1=C7=CE=D1 =E3=DD=DA=E1 =E3=CD=DD=D9=
+=E5 =C8=C7=E1=DD=DA=E1 =E6=E1=E1=C7=D3=DD =D4=D1=DF=E5 =DD=E6=CF=C7=DD=E6=
+=E4 =E3=C8=CA=DE=CF=D1=D4 =CA=CA=CF=CE=E1 =DD=ED =C7=ED =DA=E3=E1=ED=E5 =CA=
+=CD=E6=ED=E1 =CE=C7=D8=C6
+=C7=E1=DA=E3=ED=E1 =DA=E4=CF=E5 =E3=CD=DD=D9=E5 =ED=C7 =DD=E4=CF=E3 =E6=DF=
+=CF=E5 =E1=C7=D2=E3 =CA=DF=E1=E3=E6
+=DA=E3=E1=ED=E5 =C7=E1=D3=CD=C8 =E3=E4 =E3=DF=ED=E4=E5 ATM =CA=E3=CA &=DA=
+=E3=E1=ED=E5 =C7=E1=D3=CD=C8 =E3=CA=E3=CA=D4 =ED=C7 =DD=E4=CF=E3 =E6=C7=E1=
+=E3=C8=E1=DB =D1=CC=DA =E1=E1=E3=CD=DD=D9=E5 (=E6 =E4=DD=D3 =C7=E1=C7=E3=D1=
+ =E1=E1=D3=CD=C8 =E3=E4 =DD=E6=D1=ED =E6 =C7=E3=C7=E4 =E6 =C8=ED =E6 .....)
+=CE=D1=CC =E3=E4 =C7=E1=E3=CD=DD=D9=E5
+=DA=E3=E1=ED=E5 =C7=E1=C7=D3=CA=DE=C8=C7=E1 =CA=E3=CA =ED=C7 =DD=E4=CF=E3 =
+=E6=C7=E1=E3=C8=E1=DB =C7=D6=C7=DD =DD=ED =CD=D3=C7=C8 =CD=D6=D1=CA=DF (=E6=
+=D5=E1 =E1=CD=D6=D1=CA=DF =D1=D3=C7=E1=E5 =C7=E1=CA=C7=DF=ED=CF=BF) =DD=ED =
+=CD=C7=E1=E5 =DA=CF=E3 =E6=D5=E6=E1 =C7=E1=D1=D3=C7=E1=E5 (=CD=C7=E1=C7 =E5=
+=C8=DA=CA =E1=CD=D6=D1=CA=DF =D1=D3=C7=E1=E5 =C7=E1=CA=C7=DF=ED=CF) =E6 =CA=
+=DE=CF=D1 =CA=CA=C7=DF=CF =E3=E4 =C7=E1=CA=D8=C8=ED=DE=E6 =E3=E4 =D3=CC=E1 =
+=C7=E1=E3=DA=C7=E3=E1=C7=CA =C7=E1=E3=CA=C7=CD =DA=E1=ED =C7=E1=C7=C8=E1=ED=
+=DF=ED=D4=E4
+=C7=ED=E6=E5 =C7=E1=E3=C8=E1=DB =E6=D5=E1 =ED=C7 =DD=E4=CF=E3 =E3=C7=CA=DE=
+=E1=DE=D4
+=CD=C7=E1=C7 =C8=D1=C7=CC=DA =C7=E1=E3=DA=C7=E3=E1=C7=CA =E6=E6=E5=E6=D6=CD=
+ =E1=CD=D6=D1=CA=DF - =CD=C7=E1=C7 =C8=ED=D9=E5=D1 =DE=CF=C7=E3=ED =C7=E1=
+=C8=ED=C7=E4=C7=CA =C7=E1=CE=C7=D5=E5 =C8=C7=E1=C7=D3=CA=DD=D3=C7=D1
+=E3=ED=E4=DD=DA=D4 =C7=DD=D6=E1 =D3=C7=DF=CA =C7=DF=CA=D1 =E3=E4 30 =CB=C7=
+=E4=ED=E5
+=E6=C7=E4=C7 =D1=C7=CC=DA =E1=E1=DA=E3=ED=E1 =C8=C8=CA=CF=ED =C7=E6=D6=CD (=
+=D4=DF=D1=C7=F0 =CC=CF=C7=F0 =E1=C7=E4=CA=D9=C7=D1=DF =E6 =C8=DA=CA=D0=D1 =
+=E1=ED=DF =DA=E1=ED =C7=ED =CA=C3=CE=ED=D1  =ED=C7 =C7=D3=CA=C7=D0 (=C3=D3=
+=E3 =C7=E1=DA=E3=ED=E1)
+=C7=E1=E5=E6=E1=CF =E3=C7=ED=E4=DD=DA=D4 =ED=DA=CF=ED =C7=DF=CA=D1 =E3=E4 =
+=CF=DE=ED=DE=CA=ED=E4
+=C7=E4=C7 =E3=DE=CF=D1 =CC=CF=C7 =E3=E6=DE=DD =CD=D6=D1=CA=DF =E6=C7=DF=ED=
+=CF =ED=C7 =DD=E4=CF=E3 =E3=CA=DE=E1=D4 =C7=E4=C7 =E3=E6=CC=E6=CF =E5=E4=C7=
+ =DA=E1=D4=C7=E4 =C7=D3=C7=DA=CF=DF =DD=ED =C7=E1=C7=D3=CA=DD=D3=C7=D1 =CF=
+=E5
+=C7=E4=C7 =DD=C7=E5=E3 =C7=E1=ED =C7=E4=CA =C8=CA=DE=E6=E1=E6
+
+Cases Needed Follow Up
+AVL (Card To Wallet)
+Call Dropped
+Not Related To VF-Cash
+PIN Code
+Promo/Offers
+Recharge
+Reset PIN Code
+SMS Issue
+USSD Problem
+VCN (Online Purchases
+Question
+Total Points
+Phone Etiquett
+10
+Voice Tone
+15
+Engaging
+20
+Agent knowledge of product & services
+18
+Efficiency : Adjustment & Troubleshooting
+14
+Resolution/Ownership
+15
+Call Activity & feedback SMS
+8
+
+
+
+C2 General
+
+--_000_AS8PR10MB6079C893F9069EB9F6F4DE36C25EAAS8PR10MB6079EURP_
+Content-Type: text/html; charset="windows-1256"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dwindows-1=
+256">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<table style=3D"text-align: left; width: 1223pt; box-sizing: border-box; bo=
+rder-collapse: collapse; border-spacing: 0px;" cellpadding=3D"0" cellspacin=
+g=3D"0">
+<tbody>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-width: 2pt; bo=
+rder-style: double; border-color: white; background-color: rgb(0, 176, 80);=
+ vertical-align: middle; width: 1223pt; height: 17.25pt;" data-ogsb=3D"rgb(=
+0, 176, 80)">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Soft Skills Comment</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Hold Protocol/Without customer approval/L=
+ong Hold</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Ne2olha Ezai(Be more Professional in hand=
+ling way)&nbsp;</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Concentration</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Didn=92t Use Positive language</span></di=
+v>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Didn't Show Empathy</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Interruption</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">don=92t help the customer and don=92t acc=
+ept the request the customer talk the supervisor&nbsp;</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">He Didn=92t Offer To Help with Anything E=
+lse To The Customer At The End Of The Call</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Missing Closing</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Incomplete greeting/Late Greeting</span><=
+/div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Missing closing at outbound</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Poor Handling&nbsp;</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Mute</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Silence 20 Second or More</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Slangs/Unprofessional Words</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Noise Background</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble white; border-bottom: 2pt double white; border-left: 2pt double white; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsb=3D"white">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<span style=3D"font-weight: 700;">Not Active Tone/Sleepy Tone / IVR Tone/No=
+t Clear Tone/Fast Tone</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);" clas=
+s=3D"elementToProof">
+<br>
+</div>
+<div class=3D"elementToProof" id=3D"Signature">
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);" clas=
+s=3D"elementToProof">
+<br>
+</div>
+<table style=3D"width: 1701pt; box-sizing: border-box; border-collapse: col=
+lapse; border-spacing: 0px;" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align: =
+middle; width: 1223pt; height: 26.25pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=D5=C8=C7=CD =C7=E1=CE=ED=D1&amp; =E3=D3=C7=C1 =C7=E1=CE=ED=D1&nbsp;</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align:=
+ middle; width: 478pt; height: 26px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=E1=E6&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; vertical-align: middle; width: 1630.67px; height: 26.2=
+5pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E3=D3=C7=C1 =C7=E1=CE=ED=D1 =DD=E6=CF=C7=DD=E6=E4 =DF=C7=D4 (.... =E3=DA =
+=CD=D6=D1=CA=DF =C7=CA=D4=D1=DD =C8 =C7=E1=C3=D3=E3)</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; vertical-align: middle; width: 637.333px; height: 26p=
+x;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E3=D3=C7=C1 =C7=E1=CE=ED=D1 (... )=E3=DA=C7=DF =E3=E4 =DD=E6=CF=C7=DD=E6=
+=E4 =DF=C7=D4&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align: =
+middle; width: 1630.67px; height: 26.25pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=CA=D4=D1=DD =C8=C7=D3=E3 =CD=D6=D1=CA=DF =E3=E4 =DD=D6=E1=DF -=C3=CA=D4=
+=D1=DD =C8=C7=D3=E3 =CD=D6=D1=CA=DF&nbsp;</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align:=
+ middle; width: 637.333px; height: 26px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=D3=E3=DF =C7=ED=E5&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; vertical-align: middle; width: 1630.67px; height: 26.2=
+5pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=DE=CF=D1 =C7=D3=C7=DA=CF =CD=D6=D1=CA=DF =C7=D2=C7=ED -&nbsp;</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; vertical-align: middle; width: 637.333px; height: 26p=
+x;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=ED=E5 =C7=E1=E3=D4=DF=E1=E5 =C7=E1=ED =C8=CA=E6=CC=E5=DF</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align: =
+middle; width: 1630.67px; height: 26.25pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C3=D3=CA=C7=D0 (=C3=D3=E3 =C7=E1=DA=E3=ED=E1) =CD=D6=D1=CA=DF =E3=DA=C7=ED=
+=C7&nbsp;&nbsp;</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align:=
+ middle; width: 637.333px; height: 26px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=E4=CA =E3=DA=C7=ED=C7&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; vertical-align: middle; width: 1630.67px; height: 26.2=
+5pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E1=C7=D2=E3 =C7=DE=E6=E1 =DF=E1=C7=E3 =ED=DF=E6=E4 =D3=E5=E1 =E6=E6=C7=D6=
+=CD =E1=E1=DA=E3=ED=E1 =D2=ED(=E5=D1=C7=CC=DA =E1=CD=D6=D1=CA=DF =C7=E1=DA=
+=E3=E1=ED=E5 =DD=ED =C7=E1=E6=DE=CA =C7=E1=CD=C7=E1=ED - =CD=C7=E1=C7 =C8=
+=ED=D9=E5=D1 =DE=CF=C7=E3=ED =C7=E1=C8=ED=C7=E4=C7=CA =C7=E1=CE=C7=D5=E5 =
+=C8=C7=E1=C7=D3=CA=DD=D3=C7=D1 )</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; vertical-align: middle; width: 637.333px; height: 26p=
+x;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E3=ED=E4=DD=DA=D4 =C7=DE=E6=E1 =C7=ED =DF=E1=C7=E3 =CE=C7=D5 =C8=E1=D3=ED=
+=D3=CA=E3 =C8=CA=C7=DA=E4=C7 (=E5=DF=D1=ED=CA =E1=DF SR- =E5=CA=D4=DF Mobpa=
+y-Siebel)</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align: =
+middle; width: 1630.67px; height: 26.25pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C8=DA=CA=D0=D1 =CC=CF=C7 =E1=CD=D6=D1=CA=DF =ED=C7 =DD=E4=CF=E3 =C8=D3 =C7=
+=E4=C7 =E1=E1=C7=D3=DD =E3=D4 =DE=C7=CF=D1 =C7=D3=E3=DA =CD=D6=D1=CA=DF =C8=
+=D4=DF=E1 =E6=C7=D6=CD =E3=E3=DF=E4 =C3=D3=CA=C7=D0=E4=DF =E4=CA=CD=D1=DF =
+=C8=C7=E1=CA=E1=ED=DD=E6=E4 =DD=ED =E3=DF=C7=E4 =CA=C7=E4=ED =DA=E1=D4=C7=
+=E4 =C7=DE=CF=D1 =C7=E4=ED =C7=D3=E3=DA=DF =C8=D4=DF=E1 =C3=E6=D6=CD =E6 =
+=C7=DE=CF=D1 =C7=D3=C7=DA=CF=DF =DD=ED =C7=E1=C7=D3=CA=DD=D3=C7=D1</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align:=
+ middle; width: 637.333px; height: 26px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E3=ED=E4=DD=DA=D4 =C7=DE=E6=E1 =E1=E1=DA=E3=ED=E1 =C7=E1=D4=C8=DF=E5 =DA=
+=E4=CF=DF =E6=CD=D4=E5 =C7=E6 =C7=E1=D5=E6=CA =C8=ED=DE=D8=DA&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; vertical-align: middle; width: 1630.67px; height: 26.2=
+5pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=CD=D6=D1=CA=DF =CA=E3=ED=CA =DA=E3=E1=ED=C7=CA =D3=CD=C8 =C8=E3=C8=E1=DB (=
+....) =E3=CA=C8=DE=ED =E1=CD=D6=D1=CA=DF =CA=DE=CF=D1 =CA=D3=CD=C8 =C7=E6 =
+=CA=CD=E6=E1 =E3=E4 =C7=E1=E3=CD=DD=D9=E5 =E3=C8=E1=DB (...)</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; vertical-align: middle; width: 637.333px; height: 26p=
+x;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=CA=DE=CF=D1 =CA=CE=D1=CC =E3=E4 =C7=E1=E3=CD=DD=D9=E5 =C7=E6 =CA=DE=CF=D1 =
+=CA=CE=D1=CC =E3=E4 =C7=E1=E3=CD=DD=D9=E5&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align: =
+middle; width: 1630.67px; height: 26.25pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=DA=C7=ED=D2 =CD=D6=D1=CA=DF =CA=DF=E6=E4 =E3=D8=E3=E4 =E5=ED=CA=E3 =C7=E1=
+=D1=CF =DA=E1=ED =D3=CA=DD=D3=C7=D1=DF =DD=ED =CE=E1=C7=E1....=C3=E6 =DA=C7=
+=ED=D2 =CD=D6=D1=CA=DF =CA=DF=E6=E4 =E3=D8=E3=E4 =C7=E4=C7 =E5=DD=D6=E1 =C7=
+=CA=C7=C8=DA =E3=DA=C7=DF =E1=CD=CF =C7=E1=E6=D5=E6=E1 =E1=CD=E1 - =E3=CA=
+=DE=E1=DE=D4 =ED=C7 =DD=E4=CF=E3 =C7=E4=C7 =E3=DA=C7=DF =DD=ED =C7=E1=E3=DF=
+=C7=E1=E3=E5 =E1=CD=CF =E3=C7 =CA=DE=CF=D1 (own the case)</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align:=
+ middle; width: 637.333px; height: 26px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E3=DD=ED=D4 =C7=ED =E3=D4=DF=E1=E5 =CE=C7=E1=D5</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; vertical-align: middle; width: 1630.67px; height: 26.2=
+5pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=CA=E3=C7=E3 =ED=C7 =DD=E4=CF=E3</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; vertical-align: middle; width: 637.333px; height: 26p=
+x;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+<span style=3D"font-weight: 700;">=E3=C7=D4=ED =E3=C7=D4=ED</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align: =
+middle; width: 1630.67px; height: 26.25pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=E1=E3=CD=DD=D9=E5 =C7=E1=CE=C7=D5=E5 =C8=CD=D6=D1=CA=DF =E3=E6=DE=E6=DD=
+=E5 =C7=ED=DE=C7=DD =E3=E6=DE=CA =C7=E6=D6=CD =E1=E1=DA=E3=ED=E1 =C7=E1=CE=
+=D8=E6=E5 =C7=E1=ED =E3=CD=CA=C7=CC =ED=C7=CE=CF=E5=C7</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align:=
+ middle; width: 637.333px; height: 26px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=E1=E3=CD=DD=D9=E5 =E3=CA=D5=D5=C8=E4=E5&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; vertical-align: middle; width: 1630.67px; height: 26.2=
+5pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E5=ED=CA=E3 =CA=DD=DA=ED=E1 =C7=E6 =C7=E1=DB=C7=C1 =C7=E1=E3=CD=DD=D9=E5 =
+=C7=E1=CE=C7=D5=E5 =C8=CD=D6=D1=CA=DF =ED=C7 =DD=E4=CF=E3</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; vertical-align: middle; width: 637.333px; height: 26p=
+x;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E5=ED=DE=DD=E1 =C7=E6 =ED=DD=CA=CD =C7=E1=E3=CD=DD=D9=E5&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align: =
+middle; width: 1630.67px; height: 26.25pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=DA=DD=E6=C7 =C7=E4=C7 =E3=DE=CF=D1=CA=D4 =C7=D3=E3=DA =CD=D6=D1=CA=DF =C8=
+=E6=D6=E6=CD</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align:=
+ middle; width: 637.333px; height: 26px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=DA=E1=ED =D5=E6=CA=DF&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; vertical-align: middle; width: 1630.67px; height: 26.2=
+5pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=DA=DD=E6=C7 =C7=E4=C7 =E3=DE=CF=D1=CA=D4 =C7=D3=E3=DA =CD=D6=D1=CA=DF =C8=
+=E6=D6=E6=CD</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; vertical-align: middle; width: 637.333px; height: 26p=
+x;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=ED=E5 =E3=D4 =D3=C7=E3=DA=DF&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align: =
+middle; width: 1630.67px; height: 26.25pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E3=ED=E4=DD=DA=D4 =E4=E5=C7=C6=ED =C7=DE=C7=D8=DA =C7=E1=DA=E3=ED=E1 =E1=
+=C7=D2=E3 =C7=D3=CA=E4=ED =C7=E1=DA=E3=ED=E1 =ED=CE=E1=D5 =DF=E1=C7=E3=E5&n=
+bsp;</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align:=
+ middle; width: 637.333px; height: 26px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E3=C7=ED=E4=DA=D4 =E4=E5=C7=C6=ED =C7=DE=C7=D8=DA =C7=E1=DA=E3=ED=E1 =E6=
+=E5=E6 =C8=ED=CA=DF=E1=E3&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; vertical-align: middle; width: 1630.67px; height: 26.2=
+5pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C3=DE=CF=D1 =C3=E4=ED =C7=D3=CA=C8=CF=E1=E5=E3 =C8 =C3=D3=E3 =C7=E1=DA=E3=
+=ED=E1 =E1=C7=D2=E3 =E1=C7=D2=E3 =E1=C7=D2=E3 =ED=CA=E3 =C7=D3=CA=CE=CF=C7=
+=E3 =C7=D3=E3 =C7=E1=DA=E3=ED=E1 =DD=ED =C7=E1=E3=DF=C7=E1=E3=E5 =C3=DF=CA=
+=D1 =E3=E4 =E3=D1=CA=ED=E4</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; vertical-align: middle; width: 637.333px; height: 26p=
+x;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E3=ED=E4=DD=DA=D4 =C7=DF=D1=D1 =CD=D6=D1=CA=DF =DF=CA=ED=D1 =DD=ED =C7=E1=
+=E3=DF=C7=E1=E3=E5 =C7=E6 =ED=C7 =DD=E4=CF=E3&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align: =
+middle; width: 1630.67px; height: 26.25pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E1=C7=D2=E3 =C7=D3=ED=C8 =C7=E4=D8=C8=C7=DA =E1=E1=DA=E3=ED=E1 =DF=E6=ED=
+=D3 =E6=E1=C7=D2=E3 =C7=C8=CF=E1 =DF=E1=E3=E5 (=E3=D4=DF=E1=E5) =E3=E3=DF=
+=E4 =E4=C8=CF=E1=E5=C7 =C8 (=C7=D3=CA=DD=D3=C7=D1 =CD=D6=D1=CA=DF&nbsp; )</=
+div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align:=
+ middle; width: 637.333px; height: 26px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E3=ED=E4=DD=DA=D4 =C7=DE=E6=E1 =E1=E1=DA=E3=ED=E1 =C7=ED=E5 =C7=E1=E3=D4=
+=DF=E1=E5 =C7=E1=ED =C8=CA=E6=C7=CC=E5 =CD=D6=D1=CA=DF</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; vertical-align: middle; width: 1630.67px; height: 26.2=
+5pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=E1=CC=E5=C7=CA =C7=E1=E3=CE=CA=D5=E5 =C8 =C7=E1=E3=CD=C7=DD=D9 =C7=E1=
+=C7=DF=CA=D1=E6=E4=ED=E5</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; vertical-align: middle; width: 637.333px; height: 26p=
+x;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=E1=C8=E4=DF =C7=E1=E3=D1=DF=D2=ED =C7=E1=E3=D3=C4=E1 =DA =C7=E1=E1=ED=
+=E3=CA&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align: =
+middle; width: 1630.67px; height: 26.25pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C8=DA=CA=D0=D1 =CC=CF=C7 =E1=CD=D6=D1=CA=DF =ED=C7 =DD=E4=CF=E3 =C8=D3 =E1=
+=E1=C7=D3=DD =C7=E1=DA=E3=ED=E1 =C7=E1=C7=CE=D1 =E3=DD=DA=E1 =E3=CD=DD=D9=
+=E5 =C8=C7=E1=DD=DA=E1 =E6=E1=E1=C7=D3=DD =D4=D1=DF=E5 =DD=E6=CF=C7=DD=E6=
+=E4 =E3=C8=CA=DE=CF=D1=D4 =CA=CA=CF=CE=E1 =DD=ED =C7=ED =DA=E3=E1=ED=E5 =CA=
+=CD=E6=ED=E1 =CE=C7=D8=C6&nbsp;</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align:=
+ middle; width: 637.333px; height: 26px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=E1=DA=E3=ED=E1 =DA=E4=CF=E5 =E3=CD=DD=D9=E5 =ED=C7 =DD=E4=CF=E3 =E6=DF=
+=CF=E5 =E1=C7=D2=E3 =CA=DF=E1=E3=E6&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; vertical-align: middle; width: 1630.67px; height: 26.2=
+5pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=DA=E3=E1=ED=E5 =C7=E1=D3=CD=C8 =E3=E4 =E3=DF=ED=E4=E5 ATM =CA=E3=CA &amp;=
+=DA=E3=E1=ED=E5 =C7=E1=D3=CD=C8 =E3=CA=E3=CA=D4 =ED=C7 =DD=E4=CF=E3 =E6=C7=
+=E1=E3=C8=E1=DB =D1=CC=DA =E1=E1=E3=CD=DD=D9=E5 (=E6 =E4=DD=D3 =C7=E1=C7=E3=
+=D1 =E1=E1=D3=CD=C8 =E3=E4 =DD=E6=D1=ED =E6 =C7=E3=C7=E4 =E6 =C8=ED =E6 ...=
+..)</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; vertical-align: middle; width: 637.333px; height: 26p=
+x;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=CE=D1=CC =E3=E4 =C7=E1=E3=CD=DD=D9=E5</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align: =
+middle; width: 1630.67px; height: 26.25pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=DA=E3=E1=ED=E5 =C7=E1=C7=D3=CA=DE=C8=C7=E1 =CA=E3=CA =ED=C7 =DD=E4=CF=E3 =
+=E6=C7=E1=E3=C8=E1=DB =C7=D6=C7=DD =DD=ED =CD=D3=C7=C8 =CD=D6=D1=CA=DF (=E6=
+=D5=E1 =E1=CD=D6=D1=CA=DF =D1=D3=C7=E1=E5 =C7=E1=CA=C7=DF=ED=CF=BF) =DD=ED =
+=CD=C7=E1=E5 =DA=CF=E3 =E6=D5=E6=E1 =C7=E1=D1=D3=C7=E1=E5 (=CD=C7=E1=C7 =E5=
+=C8=DA=CA =E1=CD=D6=D1=CA=DF =D1=D3=C7=E1=E5 =C7=E1=CA=C7=DF=ED=CF) =E6 =CA=
+=DE=CF=D1 =CA=CA=C7=DF=CF =E3=E4 =C7=E1=CA=D8=C8=ED=DE=E6 =E3=E4 =D3=CC=E1 =
+=C7=E1=E3=DA=C7=E3=E1=C7=CA =C7=E1=E3=CA=C7=CD =DA=E1=ED =C7=E1=C7=C8=E1=ED=
+=DF=ED=D4=E4</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align:=
+ middle; width: 637.333px; height: 26px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=ED=E6=E5 =C7=E1=E3=C8=E1=DB =E6=D5=E1 =ED=C7 =DD=E4=CF=E3 =E3=C7=CA=DE=
+=E1=DE=D4&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; vertical-align: middle; width: 1630.67px; height: 26.2=
+5pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=CD=C7=E1=C7 =C8=D1=C7=CC=DA =C7=E1=E3=DA=C7=E3=E1=C7=CA =E6=E6=E5=E6=D6=CD=
+ =E1=CD=D6=D1=CA=DF - =CD=C7=E1=C7 =C8=ED=D9=E5=D1 =DE=CF=C7=E3=ED =C7=E1=
+=C8=ED=C7=E4=C7=CA =C7=E1=CE=C7=D5=E5 =C8=C7=E1=C7=D3=CA=DD=D3=C7=D1</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; vertical-align: middle; width: 637.333px; height: 26p=
+x;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E3=ED=E4=DD=DA=D4 =C7=DD=D6=E1 =D3=C7=DF=CA =C7=DF=CA=D1 =E3=E4 30 =CB=C7=
+=E4=ED=E5&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-left: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align: =
+middle; width: 1630.67px; height: 26.25pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=E6=C7=E4=C7 =D1=C7=CC=DA =E1=E1=DA=E3=ED=E1 =C8=C8=CA=CF=ED =C7=E6=D6=CD (=
+=D4=DF=D1=C7=F0 =CC=CF=C7=F0 =E1=C7=E4=CA=D9=C7=D1=DF =E6 =C8=DA=CA=D0=D1 =
+=E1=ED=DF =DA=E1=ED =C7=ED =CA=C3=CE=ED=D1&nbsp; =ED=C7 =C7=D3=CA=C7=D0 (=
+=C3=D3=E3 =C7=E1=DA=E3=ED=E1)</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; background-color: rgb(220, 230, 241); vertical-align:=
+ middle; width: 637.333px; height: 26px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=E1=E5=E6=E1=CF =E3=C7=ED=E4=DD=DA=D4 =ED=DA=CF=ED =C7=DF=CA=D1 =E3=E4 =
+=CF=DE=ED=DE=CA=ED=E4</div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-bottom: 0.5pt solid; border-left: 0.5pt solid; vertical-align: middle; wi=
+dth: 1630.67px; height: 27pt;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=E4=C7 =E3=DE=CF=D1 =CC=CF=C7 =E3=E6=DE=DD =CD=D6=D1=CA=DF =E6=C7=DF=ED=
+=CF =ED=C7 =DD=E4=CF=E3 =E3=CA=DE=E1=D4 =C7=E4=C7 =E3=E6=CC=E6=CF =E5=E4=C7=
+ =DA=E1=D4=C7=E4 =C7=D3=C7=DA=CF=DF =DD=ED =C7=E1=C7=D3=CA=DD=D3=C7=D1 =CF=
+=E5</div>
+</td>
+<td style=3D"direction: rtl; text-align: center; white-space: nowrap; borde=
+r-right: 0.5pt solid; border-bottom: 0.5pt solid; vertical-align: middle; w=
+idth: 637.333px; height: 27px;">
+<div style=3D"direction: rtl; text-align: center; white-space: nowrap; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+=C7=E4=C7 =DD=C7=E5=E3 =C7=E1=ED =C7=E4=CA =C8=CA=DE=E6=E1=E6&nbsp; </div>
+</td>
+</tr>
+</tbody>
+</table>
+<div style=3D"text-align: left; text-indent: 0px; background-color: rgb(255=
+, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSF=
+ontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;"=
+ class=3D"elementToProof">
+<br>
+</div>
+<table style=3D"width: 1223pt; box-sizing: border-box; border-collapse: col=
+lapse; border-spacing: 0px;" data-ogsb=3D"rgb(255, 255, 255)" data-ogsc=3D"=
+rgb(36, 36, 36)" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td style=3D"text-align: center; border-width: 2pt; border-style: double; b=
+order-color: initial; background-color: rgb(73, 69, 41); vertical-align: mi=
+ddle; width: 1223pt; height: 17.25pt;">
+<div style=3D"text-align: center; font-family: Aptos, Aptos_EmbeddedFont, A=
+ptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color:=
+ black;" class=3D"elementToProof">
+<span style=3D"font-weight: 700;">Cases&nbsp;Needed&nbsp;Follow&nbsp;Up&nbs=
+p;</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble black; border-bottom: 2pt double black; border-left: 2pt double black; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsc=3D"black">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+AVL (Card To Wallet)</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble black; border-bottom: 2pt double black; border-left: 2pt double black; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsc=3D"black">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+Call Dropped</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble black; border-bottom: 2pt double black; border-left: 2pt double black; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsc=3D"black">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+Not Related To VF-Cash</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble black; border-bottom: 2pt double black; border-left: 2pt double black; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsc=3D"black">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+PIN Code</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble black; border-bottom: 2pt double black; border-left: 2pt double black; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsc=3D"black">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+Promo/Offers</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble black; border-bottom: 2pt double black; border-left: 2pt double black; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsc=3D"black">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+Recharge</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble black; border-bottom: 2pt double black; border-left: 2pt double black; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsc=3D"black">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+Reset PIN Code</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble black; border-bottom: 2pt double black; border-left: 2pt double black; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsc=3D"black">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+SMS Issue</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble black; border-bottom: 2pt double black; border-left: 2pt double black; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsc=3D"black">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+USSD Problem</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 2pt dou=
+ble black; border-bottom: 2pt double black; border-left: 2pt double black; =
+background-color: white; vertical-align: middle; width: 1630.67px; height: =
+17.25pt;" data-ogsc=3D"black">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+VCN (Online Purchases</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table style=3D"text-align: left; width: 1701pt; box-sizing: border-box; bo=
+rder-collapse: collapse; border-spacing: 0px;" cellpadding=3D"0" cellspacin=
+g=3D"0">
+<tbody>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-top: 0.5pt sol=
+id black; border-bottom: 0.5pt solid black; border-left: 0.5pt solid black;=
+ background-color: black; vertical-align: middle; width: 1223pt; height: 16=
+.5pt;">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: black;" class=3D"elementToProof">
+<span style=3D"font-weight: 700;">Question</span></div>
+</td>
+<td style=3D"text-align: center; white-space: nowrap; border-top: 0.5pt sol=
+id black; border-right: 0.5pt solid black; border-bottom: 0.5pt solid black=
+; background-color: black; vertical-align: middle; width: 478pt; height: 16=
+px;">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: black;" class=3D"elementToProof">
+<span style=3D"font-weight: 700;">Total Points</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; border-left: 0.5pt solid blac=
+k; background-color: rgb(217, 217, 217); vertical-align: middle; width: 163=
+0.67px; height: 15.75pt;" data-ogsb=3D"rgb(217, 217, 217)">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+Phone Etiquett</div>
+</td>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; background-color: rgb(217, 21=
+7, 217); vertical-align: middle; width: 637.333px; height: 15px;" data-ogsb=
+=3D"rgb(217, 217, 217)">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+10</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; border-left: 0.5pt solid blac=
+k; background-color: white; vertical-align: middle; width: 1630.67px; heigh=
+t: 15.75pt;">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+Voice Tone</div>
+</td>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; background-color: white; vert=
+ical-align: middle; width: 637.333px; height: 15px;">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+15</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; border-left: 0.5pt solid blac=
+k; background-color: rgb(217, 217, 217); vertical-align: middle; width: 163=
+0.67px; height: 15.75pt;" data-ogsb=3D"rgb(217, 217, 217)">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+Engaging&nbsp;</div>
+</td>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; background-color: rgb(217, 21=
+7, 217); vertical-align: middle; width: 637.333px; height: 15px;" data-ogsb=
+=3D"rgb(217, 217, 217)">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+20</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; border-left: 0.5pt solid blac=
+k; background-color: white; vertical-align: middle; width: 1630.67px; heigh=
+t: 15.75pt;">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+Agent knowledge of product &amp; services</div>
+</td>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; background-color: white; vert=
+ical-align: middle; width: 637.333px; height: 15px;">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+18</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; border-left: 0.5pt solid blac=
+k; background-color: rgb(217, 217, 217); vertical-align: middle; width: 163=
+0.67px; height: 15.75pt;" data-ogsb=3D"rgb(217, 217, 217)">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+Efficiency : Adjustment &amp; Troubleshooting</div>
+</td>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; background-color: rgb(217, 21=
+7, 217); vertical-align: middle; width: 637.333px; height: 15px;" data-ogsb=
+=3D"rgb(217, 217, 217)">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+14</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; border-left: 0.5pt solid blac=
+k; background-color: white; vertical-align: middle; width: 1630.67px; heigh=
+t: 15.75pt;">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+Resolution/Ownership</div>
+</td>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; background-color: white; vert=
+ical-align: middle; width: 637.333px; height: 15px;">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+15</div>
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; border-left: 0.5pt solid blac=
+k; background-color: rgb(217, 217, 217); vertical-align: middle; width: 163=
+0.67px; height: 15.75pt;" data-ogsb=3D"rgb(217, 217, 217)">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+Call Activity &amp; feedback SMS</div>
+</td>
+<td style=3D"text-align: center; white-space: nowrap; border-right: 0.5pt s=
+olid black; border-bottom: 0.5pt solid black; background-color: rgb(217, 21=
+7, 217); vertical-align: middle; width: 637.333px; height: 15px;" data-ogsb=
+=3D"rgb(217, 217, 217)">
+<div style=3D"text-align: center; white-space: nowrap; font-family: Aptos, =
+sans-serif; font-size: 12pt; color: black;" class=3D"elementToProof">
+8</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div style=3D"text-align: left; text-indent: 0px; background-color: rgb(255=
+, 255, 255); margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSF=
+ontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: black;"=
+ class=3D"elementToProof">
+<br>
+</div>
+</div>
+<br>
+<p style=3D"font-family:Calibri;font-size:7pt;color:#000000;margin:5pt;font=
+-style:normal;font-weight:normal;text-decoration:none;" align=3D"Left">
+C2 General<br>
+</p>
+</body>
+</html>
+
+--_000_AS8PR10MB6079C893F9069EB9F6F4DE36C25EAAS8PR10MB6079EURP_--
