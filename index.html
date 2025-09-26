@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>كشف زيادات الرصيد بين السجلات - محفظة إلكترونية</title>
+  <style>
+    body { font-family: Tahoma, Arial, sans-serif; direction: rtl; padding: 18px; background:#f7f7f9; color:#111 }
+    h1 { margin-top: 0 }
+    .card { background:white; padding:16px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.06); margin-bottom:12px }
+    input[type=file]{ display:block; margin:8px 0 12px }
+    table { width:100%; border-collapse:collapse; margin-top:12px; font-size:14px; direction: rtl }
+    th, td { border:1px solid #e6e6e6; padding:8px; text-align:right }
+    tr.suspicious { background: #fff4f4 }
+    .btn { display:inline-block; padding:8px 12px; border-radius:6px; background:#2563eb; color:white; text-decoration:none; cursor:pointer }
+    .btn.secondary { background:#4b5563 }
+    .small { font-size:13px; color:#555 }
+    .flex { display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+    .warning { color:#b91c1c; font-weight:600 }
+    label.checkbox { display:inline-flex; gap:8px; align-items:center; cursor:pointer; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  <h1>كشف زيادات الرصيد بين السجلات</h1>
+
+  <div class="card">
+    <div class="small">ارفع ملف Excel (.xlsx/.xls) أو CSV. البرنامج يقارن "Available Balance" الحالي مع "Available Balance" للسجل السابق ويكشف الفروق الإيجابية الكبيرة غير المبررة.</div>
+    <input id="fileInput" type="file" accept=".xlsx,.xls,.csv" />
+    <div class="flex" style="margin-top:8px; align-items:center">
+      <button id="analyzeBtn" class="btn">افحص الملف</button>
+      <button id="downloadBtn" class="btn secondary" disabled>تحميل تقرير CSV للمشبوهة</button>
+      <label class="checkbox"><input type="checkbox" id="onlySuspicious" /> عرض المشبوهة فقط</label>
+      <div id="stats" class="small"></div>
+    </div>
+  </div>
+
+  <div id="results"></div>
+
+<script>
+  const TOLERANCE = 1e-6;
+  const MIN_DELTA = 1;
+
+  function toNum(x){
+    if(x === null || x === undefined || x === "") return NaN;
+    const cleaned = String(x).replace(/[,٪%]/g,'').replace(/[^\d.\-]/g,'').trim();
+    return cleaned === "" ? NaN : Number(cleaned);
+  }
+
+  const depositKeywords = /deposit|credit|top ?up|recharge|mobile receive|cash in|إيداع|شحن|تحويل وارد/i;
+  const withdrawKeywords = /withdraw|send|purchase|خصم|صرف|دفع|cash out/i;
+
+  function readFile(file, cb){
+    const reader = new FileReader();
+    const name = file.name.toLowerCase();
+    reader.onload = (e) => {
+      const data = e.target.result;
+      try {
+        if(name.endsWith('.csv')){
+          const text = typeof data === 'string' ? data : new TextDecoder('utf-8').decode(data);
+          const rows = XLSX.utils.sheet_to_json(XLSX.utils.csv_to_sheet(text), {defval:""});
+          cb(null, rows);
+        } else {
+          const workbook = XLSX.read(data, {type: 'binary'});
+          const first = workbook.SheetNames[0];
+          const ws = workbook.Sheets[first];
+          const rows = XLSX.utils.sheet_to_json(ws, {defval:""});
+          cb(null, rows);
+        }
+      } catch(err){
+        cb(err);
+      }
+    };
+    if(name.endsWith('.csv')) reader.readAsText(file); else reader.readAsBinaryString(file);
+  }
+
+  let lastAnalysis = null;
+
+  function analyzeRows(rows){
+    if(!rows || rows.length === 0) return { error: 'الملف فارغ أو لم يتم التعرف على صفوف.' };
+
+    // الأعمدة المتوقعة
+    const keyDate = "Date";
+    const keyType = "Transaction Type";
+    const keyAmount = "Amount";
+    const keyBalance = "Available Balance";
+
+    if(!rows[0].hasOwnProperty(keyBalance)){
+      return { error: 'لم أجد عمود "Available Balance". تأكد من الملف.' };
+    }
+
+    // ترتيب حسب التاريخ
+    const rowsForAnalysis = rows.slice();
+    rowsForAnalysis.sort((a,b) => {
+      const da = Date.parse(String(a[keyDate]));
+      const db = Date.parse(String(b[keyDate]));
+      return (isNaN(da)?0:da) - (isNaN(db)?0:db);
+    });
+
+    const annotated = [];
+    const suspicious = [];
+    let prevBalance = null;
+
+    for(let i=0;i<rowsForAnalysis.length;i++){
+      const originalRow = rowsForAnalysis[i];
+      const row = Object.assign({}, originalRow);
+
+      const balanceVal = toNum(row[keyBalance]);
+      const amountVal = toNum(row[keyAmount]);
+      const typeVal = String(row[keyType] ?? '').toLowerCase();
+
+      let note = '';
+      let isSusp = false;
+
+      if(i === 0){
+        note = 'أول صف - لا مقارنة';
+      } else {
+        if(prevBalance === null || isNaN(prevBalance)){
+          note = 'لا يوجد رصيد سابق صالح للمقارنة';
+        } else if(isNaN(balanceVal)){
+          note = 'الرصيد الحالي غير قابل للقراءة';
+        } else {
+          const delta = balanceVal - prevBalance;
+          if(delta > Math.max(TOLERANCE, MIN_DELTA)){
+            if(depositKeywords.test(typeVal)){
+              note = `زيادة مبررة ${delta} بسبب العملية: ${row[keyType]}`;
+            } else {
+              note = `زيادة غير مبررة بمقدار ${delta} (رصيد سابق ${prevBalance} → حالي ${balanceVal})`;
+              isSusp = true;
+            }
+          } else {
+            note = 'لا توجد زيادة غير مبررة';
+          }
+        }
+      }
+
+      row._note = note;
+      row._suspicious = isSusp;
+
+      annotated.push(row);
+      if(isSusp) suspicious.push(row);
+
+      prevBalance = isNaN(balanceVal)? prevBalance : balanceVal;
+    }
+
+    return { annotated, suspicious };
+  }
+
+  function renderTable(rows){
+    const container = document.getElementById('results');
+    container.innerHTML = '';
+    if(!rows || rows.length === 0){ container.innerHTML = '<div class="card">لا توجد نتائج.</div>'; return; }
+
+    const showRows = rows.slice().reverse();
+
+    const table = document.createElement('table');
+    const thead = document.createElement('thead');
+    const tbody = document.createElement('tbody');
+
+    const keySet = new Set();
+    showRows.forEach(r => Object.keys(r).forEach(k => keySet.add(k)));
+    const keys = Array.from(keySet);
+
+    const trh = document.createElement('tr');
+    keys.forEach(k => {
+      const th = document.createElement('th');
+      th.textContent = k;
+      trh.appendChild(th);
+    });
+    thead.appendChild(trh);
+
+    showRows.forEach(r => {
+      const tr = document.createElement('tr');
+      if(r._suspicious) tr.classList.add('suspicious');
+      keys.forEach(k => {
+        const td = document.createElement('td');
+        td.textContent = r[k] ?? '';
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    });
+
+    table.appendChild(thead);
+    table.appendChild(tbody);
+
+    const card = document.createElement('div');
+    card.className = 'card';
+    const title = document.createElement('div');
+    title.innerHTML = `<strong>عرض النتائج (الأحدث أولاً)</strong>`;
+    card.appendChild(title);
+    card.appendChild(table);
+    container.appendChild(card);
+  }
+
+  function downloadCSV(rows, filename='suspicious.csv'){
+    if(!rows || rows.length===0) return;
+    const ws = XLSX.utils.json_to_sheet(rows);
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, "suspicious");
+    XLSX.writeFile(wb, filename);
+  }
+
+  function refreshView(){
+    if(!lastAnalysis) return;
+    const only = document.getElementById('onlySuspicious').checked;
+    if(only){
+      renderTable(lastAnalysis.suspicious);
+    } else {
+      renderTable(lastAnalysis.annotated);
+    }
+    const statDiv = document.getElementById('stats');
+    statDiv.innerHTML = `عدد السجلات: ${lastAnalysis.annotated.length} — عدد المشتبه بها: <span class="warning">${lastAnalysis.suspicious.length}</span>`;
+    const downloadBtn = document.getElementById('downloadBtn');
+    downloadBtn.disabled = lastAnalysis.suspicious.length === 0;
+  }
+
+  document.getElementById('analyzeBtn').addEventListener('click', ()=>{
+    const inp = document.getElementById('fileInput');
+    if(!inp.files || inp.files.length === 0){
+      alert('من فضلك اختر ملف Excel أو CSV أولاً');
+      return;
+    }
+    const file = inp.files[0];
+    document.getElementById('stats').textContent = 'جاري القراءة والتحليل...';
+    readFile(file, (err, rows)=>{
+      if(err){
+        alert('خطأ أثناء قراءة الملف: ' + err.message);
+        document.getElementById('stats').textContent = '';
+        return;
+      }
+      const res = analyzeRows(rows);
+      if(res.error){
+        alert(res.error);
+        document.getElementById('stats').textContent = '';
+        return;
+      }
+      lastAnalysis = res;
+      refreshView();
+      document.getElementById('downloadBtn').onclick = ()=> downloadCSV(lastAnalysis.suspicious, 'suspicious_balances.xlsx');
+    });
+  });
+
+  document.getElementById('onlySuspicious').addEventListener('change', refreshView);
+</script>
+</body>
+</html>
