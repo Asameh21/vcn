@@ -2,51 +2,165 @@ Sub PrepareTR()
 
     Dim ws As Worksheet
     Dim lastRow As Long
-    Dim i As Long
+    Dim lastCol As Long
 
     Set ws = ActiveSheet
 
-    'Find last used row
-    lastRow = ws.Cells(ws.Rows.Count, "D").End(xlUp).Row
+    Application.ScreenUpdating = False
+    Application.Calculation = xlCalculationManual
+    Application.DisplayAlerts = False
 
-    '1?? Clear all data from column H to last column
+    '--------------------------------------------------
+    '1?? Clear data from column H to end
     ws.Range("H:XFD").Clear
+    '--------------------------------------------------
 
-    '2?? Remove rows where Column D = "Mobile Balance"
-    For i = lastRow To 1 Step -1
-        If Trim(ws.Cells(i, "D").Value) = "Mobile Balance" Then
-            ws.Rows(i).Delete
-        End If
-    Next i
+    '--------------------------------------------------
+    '2?? Apply filter and remove "Mobile Balance"
+    lastRow = ws.Cells(ws.Rows.Count, "D").End(xlUp).Row
+    lastCol = ws.Cells(1, ws.Columns.Count).End(xlToLeft).Column
+    
+    If lastRow < 2 Then
+        MsgBox "No data found in column D!", vbExclamation
+        GoTo Cleanup
+    End If
 
-    'Recalculate last row
-    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+    If ws.AutoFilterMode = False Then
+        ws.Range(ws.Cells(1, 1), ws.Cells(lastRow, lastCol)).AutoFilter
+    End If
 
+    ws.Range(ws.Cells(1, 1), ws.Cells(lastRow, lastCol)) _
+        .AutoFilter Field:=4, Criteria1:="Mobile Balance"
+
+    On Error Resume Next
+    ws.Range("A2:A" & lastRow).SpecialCells(xlCellTypeVisible).EntireRow.Delete
+    On Error GoTo 0
+
+    ws.AutoFilterMode = False
+    '--------------------------------------------------
+
+    '--------------------------------------------------
     '3?? Convert columns E & F to numbers
-    With ws.Range("E1:F" & lastRow)
-        .NumberFormat = "General"
-        .Value = .Value
-    End With
+    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+    If lastRow >= 2 Then
+        With ws.Range("E2:F" & lastRow)
+            .NumberFormat = "General"
+            .Value = .Value
+        End With
+    End If
+    '--------------------------------------------------
 
-    '4?? Apply wrapping FIRST
+    '--------------------------------------------------
+    '4?? Center + borders
     With ws.UsedRange
-        .WrapText = True
         .HorizontalAlignment = xlCenter
         .VerticalAlignment = xlCenter
         .Borders.LineStyle = xlContinuous
         .Borders.Weight = xlThin
     End With
+    '--------------------------------------------------
 
-    '5?? Force Excel to recalc layout
-    ws.Calculate
+    '--------------------------------------------------
+    '5?? WRAP & FIT ALL DATA
+    Call WrapAndFitFinal(ws)
+    '--------------------------------------------------
 
-    '6?? Autofit ROWS ONLY (critical)
-    ws.UsedRange.Rows.AutoFit
-    ws.UsedRange.WrapText = False
-ws.UsedRange.WrapText = True
-ws.UsedRange.Rows.AutoFit
-
+Cleanup:
+    Application.Calculation = xlCalculationAutomatic
+    Application.ScreenUpdating = True
+    Application.DisplayAlerts = True
 
 End Sub
 
+
+'-----------------------------
+' Helper function to get column letter
+'-----------------------------
+Function GetColumnLetter(colNum As Long) As String
+    Dim vArr As Variant
+    vArr = Split(Cells(1, colNum).Address(True, False), "$")
+    GetColumnLetter = vArr(0)
+End Function
+
+
+'-----------------------------
+' Improved Sub for wrapping & autofit
+'-----------------------------
+Sub WrapAndFitFinal(ws As Worksheet)
+    Dim lastRow As Long, lastCol As Long
+    Dim rng As Range
+    Dim rw As Range
+    Dim col As Range
+    Dim i As Long
+    
+    Application.ScreenUpdating = False
+    Application.Calculation = xlCalculationManual
+    
+    On Error Resume Next
+    lastRow = ws.Cells(ws.Rows.Count, 1).End(xlUp).Row
+    lastCol = ws.Cells(1, ws.Columns.Count).End(xlToLeft).Column
+    On Error GoTo 0
+    
+    If lastRow < 1 Or lastCol < 1 Then
+        Application.Calculation = xlCalculationAutomatic
+        Application.ScreenUpdating = True
+        Exit Sub
+    End If
+    
+    ' Set the range
+    Set rng = ws.Range(ws.Cells(1, 1), ws.Cells(lastRow, lastCol))
+    
+    ' Step 1: Clear existing wrap and autofit
+    rng.WrapText = False
+    
+    ' Reset row heights and column widths
+    For i = 1 To lastRow
+        ws.Rows(i).RowHeight = 15  ' Reset to standard height
+    Next i
+    
+    For i = 1 To lastCol
+        ws.Columns(i).ColumnWidth = 8.43  ' Reset to standard width
+    Next i
+    
+    ' Step 2: Apply wrap
+    rng.WrapText = True
+    
+    ' Step 3: Autofit columns
+    For i = 1 To lastCol
+        ws.Columns(i).AutoFit
+        ' Ensure minimum column width
+        If ws.Columns(i).ColumnWidth < 8 Then
+            ws.Columns(i).ColumnWidth = 8
+        End If
+    Next i
+    
+    ' Step 4: Autofit rows
+    For i = 1 To lastRow
+        ws.Rows(i).AutoFit
+        ' Ensure minimum row height
+        If ws.Rows(i).RowHeight < 15 Then
+            ws.Rows(i).RowHeight = 15
+        End If
+    Next i
+    
+    ' Alternative: One-pass method that often works better
+    ' Uncomment if above doesn't work well
+    'With rng
+    '    .WrapText = True
+    '    .Columns.AutoFit
+    '    .Rows.AutoFit
+    '
+    '    ' Ensure minimum sizes
+    '    For i = 1 To lastRow
+    '        If ws.Rows(i).RowHeight < 15 Then ws.Rows(i).RowHeight = 15
+    '    Next i
+    '
+    '    For i = 1 To lastCol
+    '        If ws.Columns(i).ColumnWidth < 8 Then ws.Columns(i).ColumnWidth = 8
+    '    Next i
+    'End With
+    
+    Application.Calculation = xlCalculationAutomatic
+    Application.ScreenUpdating = True
+End Sub
 
