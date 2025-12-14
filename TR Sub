@@ -1,0 +1,52 @@
+Sub PrepareTR()
+
+    Dim ws As Worksheet
+    Dim lastRow As Long
+    Dim i As Long
+
+    Set ws = ActiveSheet
+
+    'Find last used row
+    lastRow = ws.Cells(ws.Rows.Count, "D").End(xlUp).Row
+
+    '1?? Clear all data from column H to last column
+    ws.Range("H:XFD").Clear
+
+    '2?? Remove rows where Column D = "Mobile Balance"
+    For i = lastRow To 1 Step -1
+        If Trim(ws.Cells(i, "D").Value) = "Mobile Balance" Then
+            ws.Rows(i).Delete
+        End If
+    Next i
+
+    'Recalculate last row
+    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+
+    '3?? Convert columns E & F to numbers
+    With ws.Range("E1:F" & lastRow)
+        .NumberFormat = "General"
+        .Value = .Value
+    End With
+
+    '4?? Apply wrapping FIRST
+    With ws.UsedRange
+        .WrapText = True
+        .HorizontalAlignment = xlCenter
+        .VerticalAlignment = xlCenter
+        .Borders.LineStyle = xlContinuous
+        .Borders.Weight = xlThin
+    End With
+
+    '5?? Force Excel to recalc layout
+    ws.Calculate
+
+    '6?? Autofit ROWS ONLY (critical)
+    ws.UsedRange.Rows.AutoFit
+    ws.UsedRange.WrapText = False
+ws.UsedRange.WrapText = True
+ws.UsedRange.Rows.AutoFit
+
+
+End Sub
+
+
