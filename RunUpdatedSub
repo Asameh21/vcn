@@ -1,0 +1,96 @@
+Sub Run()
+
+    Dim ws As Worksheet
+    Dim lastRow As Long, lastRowE As Long
+    Dim Rng As Range, Cell As Range
+    Dim StrCell As String
+
+    Set ws = Sheets("Data")
+    Application.ScreenUpdating = False
+
+    '==============================
+    ' Header formatting
+    ws.Range("A1", ws.Range("A1").End(xlToRight)).Interior.Color = RGB(92, 102, 205)
+    ws.Range("A1", ws.Range("A1").End(xlToRight)).Font.ThemeColor = xlThemeColorDark1
+
+    With ws.Range("A1").CurrentRegion
+        .HorizontalAlignment = xlCenter
+        .VerticalAlignment = xlCenter
+        .MergeCells = False
+        .Borders.LineStyle = xlContinuous
+    End With
+
+    '==============================
+    ' Convert Column E to Number
+    lastRowE = ws.Cells(ws.Rows.Count, "E").End(xlUp).Row
+    With ws.Range("E2:E" & lastRowE)
+        .NumberFormat = "General"
+        .Value = .Value
+    End With
+
+    '==============================
+    ' Date column
+    ws.Range("B1").Value = "Date"
+    ws.Range("B2").Value = "=LEFT(C2,10)"
+    ws.Range("B2").AutoFill _
+        Destination:=ws.Range("B2:B" & ws.Cells(ws.Rows.Count, "C").End(xlUp).Row), _
+        Type:=xlFillDefault
+
+    '==============================
+    ' Withdrawal logic (INLINE – NO OTHER SUB)
+
+    ' 1st loop (Column W)
+    lastRow = ws.Cells(ws.Rows.Count, "W").End(xlUp).Row
+    Set Rng = ws.Range("W2:W" & lastRow)
+
+    For Each Cell In Rng
+        If Cell.Value = "Withdrawal" Then
+            If Cell.Offset(0, -19).Value = "Mobile Cash Out Fees" _
+            Or Cell.Offset(0, -19).Value = "Mobile ATM Cash Out Fees" Then
+                Cell.Value = "Mobile Cash Out Fees"
+            End If
+        End If
+    Next Cell
+
+    ' 2nd loop (Column D)
+    lastRow = ws.Cells(ws.Rows.Count, "D").End(xlUp).Row
+    Set Rng = ws.Range("D2:D" & lastRow)
+
+    For Each Cell In Rng
+        If Cell.Value = "Withdrawal" Or Cell.Value = "Withdrawl " Then
+            StrCell = Cell.Offset(0, 19).Value
+            If InStr(StrCell, "p2p") > 0 _
+            Or InStr(StrCell, "OL") > 0 _
+            Or InStr(StrCell, "Adjustment") > 0 Then
+                Cell.Offset(0, 19).Value = "Withdrawal"
+            End If
+        End If
+    Next Cell
+
+    '==============================
+    ' Hide columns
+    ws.Columns("C").Hidden = True
+    ws.Columns("F:K").Hidden = True
+    ws.Columns("M:S").Hidden = True
+    ws.Columns("U:V").Hidden = True
+    ws.Columns("X:BA").Hidden = True
+
+    '==============================
+    ' Replace True / False
+    ws.Cells.Replace "False", "F", xlPart
+    ws.Cells.Replace "True", "T", xlPart
+
+    '==============================
+    ' ? FINAL & CORRECT WRAP + FIT
+    ' (this order is critical)
+    With ws.UsedRange
+        .Columns.AutoFit   ' 1?? fix width
+        .WrapText = True   ' 2?? wrap text
+        .Rows.AutoFit      ' 3?? fit height
+    End With
+
+    Application.ScreenUpdating = True
+
+End Sub
+
+
