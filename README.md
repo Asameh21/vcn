@@ -1,7 +1,3 @@
-C:\GCTI\CCPulse+\CallCenter.exe
-Username           COPS
-Application         CCPulse_701
-Hostname           10.230.88.90
-
-Port       6004
-
+[20/07, 10:02 am] Salma Hr Abwab: https://forms.gle/mPxj21zXjzoPjwf79
+[20/07, 10:03 am] Salma Hr Abwab: https://forms.gle/AgB4ZCgFT3DyU9a27
+[20/07, 10:04 am] Salma Hr Abwab: https://forms.gle/JUAuDEi9k6v1CaBX7
